@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CarteiraTech — carteira compacta para até três cartões, com acionamento por alavanca frontal." />
+    <meta name="theme-color" content="#050816" />
+    <title>CarteiraTech | Seus cartões, sempre com você</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="CarteiraTech — início">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span class="brand-name">Carteira<span>Tech</span></span>
+        </a>
+
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a class="active" href="#inicio">Início</a>
+          <a href="#carteira">A carteira</a>
+          <a href="#funcionamento">Como funciona</a>
+          <a href="#projeto">Projeto</a>
+          <a href="#apoie">Apoie</a>
+        </nav>
+
+        <a class="button button-small nav-cta" href="#carteira">Conheça a carteira</a>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-lines" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <h1 id="hero-title">Seus cartões,<br /><span>sempre</span> com você</h1>
+            <p>Compacta, prática e feita para simplificar o seu dia.</p>
+            <div class="hero-actions">
+              <a class="button" href="#carteira">Conheça a carteira <span aria-hidden="true">→</span></a>
+              <a class="button button-outline" href="#funcionamento">
+                Veja como funciona
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 7 6 5-6 5V7Z" /></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="CarteiraTech com três cartões">
+            <div class="brand-panel" aria-hidden="true"></div>
+            <div class="product-halo" aria-hidden="true"></div>
+            <img src="assets/carteira-destaque.png" alt="Carteira compacta preta com três cartões" />
+            <p class="hand-note">Mais praticidade<br />no seu dia a dia</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#carteira">Role para conhecer <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="features section" id="carteira" aria-labelledby="features-title">
+        <div class="container feature-layout">
+          <div class="feature-copy reveal">
+            <h2 id="features-title">Pequena no tamanho.<br /><span>Grande na praticidade.</span></h2>
+            <p>Uma carteira compacta para levar o essencial com mais organização.</p>
+
+            <div class="benefit-list">
+              <article class="benefit">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32"><rect x="5" y="9" width="22" height="15" rx="3"/><path d="M5 14h22M10 19h6"/></svg>
+                </span>
+                <div><strong>Até 3 cartões</strong><small>O essencial sempre por perto.</small></div>
+              </article>
+              <article class="benefit">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32"><path d="M12 5H5v7M20 27h7v-7M5 12l8-8M27 20l-8 8"/></svg>
+                </span>
+                <div><strong>Formato compacto</strong><small>Leve, discreta e fácil de carregar.</small></div>
+              </article>
+              <article class="benefit">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 32 32"><path d="M16 17V7a3 3 0 0 1 6 0v8M16 12a3 3 0 0 0-6 0v8l-2-2a3 3 0 0 0-4 4l6 6h10a7 7 0 0 0 7-7v-8"/></svg>
+                </span>
+                <div><strong>Acesso em um movimento</strong><small>Os cartões sobem ao levantar a alavanca frontal.</small></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="product-demo reveal" id="product-demo">
+            <div class="demo-glow" aria-hidden="true"></div>
+            <img src="assets/carteira-destaque.png" alt="Detalhe da CarteiraTech e sua alavanca frontal texturizada" />
+            <button class="demo-button" type="button" aria-pressed="false">
+              <span></span> Levantar a alavanca
+            </button>
+            <div class="lift-arrows" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how section" id="funcionamento" aria-labelledby="how-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 id="how-title"><span>Simples</span> de usar</h2>
+            <p>Um movimento simples deixa seus cartões prontos para o uso.</p>
+          </div>
+
+          <div class="steps">
+            <article class="step reveal">
+              <span class="step-number">1</span>
+              <div class="step-art cards-stack" aria-hidden="true"><i></i><i></i><i></i></div>
+              <h3>Organize</h3>
+              <p>Coloque até três cartões.</p>
+            </article>
+            <span class="step-arrow" aria-hidden="true">→</span>
+            <article class="step reveal">
+              <span class="step-number">2</span>
+              <div class="step-art lever-lift" aria-hidden="true"><i></i><b>↑</b></div>
+              <h3>Levante</h3>
+              <p>Levante a alavanca frontal.</p>
+            </article>
+            <span class="step-arrow" aria-hidden="true">→</span>
+            <article class="step reveal">
+              <span class="step-number">3</span>
+              <div class="step-art cards-stack raised" aria-hidden="true"><i></i><i></i><i></i></div>
+              <h3>Pronto</h3>
+              <p>Os cartões sobem para facilitar o acesso.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section" id="projeto" aria-labelledby="project-title">
+        <div class="container project-grid">
+          <div class="project-copy reveal">
+            <h2 id="project-title">Um projeto feito<br /><span>para facilitar</span><br />o dia a dia.</h2>
+            <p>A CarteiraTech foi desenvolvida como projeto escolar para apresentar uma solução simples, compacta e funcional para organizar cartões.</p>
+            <p class="project-label"><strong>Feira de Ciências</strong></p>
+            <a class="button" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+          </div>
+          <figure class="project-image reveal">
+            <img src="assets/carteira-original.jpeg" alt="Carteira do projeto escolar com três cartões" />
+            <figcaption>Protótipo apresentado no projeto</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="support section" id="apoie" aria-labelledby="support-title">
+        <div class="container support-layout reveal">
+          <div class="support-copy">
+            <h2 id="support-title">Gostou da ideia?<br /><span>Apoie o projeto.</span></h2>
+            <p>Quem quiser apoiar o projeto e adquirir sua própria carteira pode comprar pelo site da Mid Maker 3D ou entrar em contato diretamente.</p>
+          </div>
+          <div class="support-actions">
+            <a class="button support-primary" href="https://www.midmaker3d.com.br/" target="_blank" rel="noopener noreferrer">
+              Comprar no site <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline support-contact" href="https://wa.me/5575998813937" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.4 2.4 2.1 4.1 4.5 4.8"/></svg>
+              <span>Falar pelo WhatsApp<small>(75) 99881-3937</small></span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <a class="brand" href="#inicio" aria-label="CarteiraTech — voltar ao início">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span class="brand-name">Carteira<span>Tech</span></span>
+        </a>
+        <p>Seus cartões, sempre com você.</p>
+        <p>Projeto escolar — 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
